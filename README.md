@@ -64,29 +64,3 @@ docker run -d --name <container-name> -p <hostport:containerport> <image-name>
 ```
 ansible-playbook playbook.yml
 ```
-
----
-
-## How to Run the app using docker-compose?
-
-## Method 1
-
-To start building Dockerfile and run container:
-
-```
-docker-compose up
-```
-
-To stop and remove running containers:
-
-```
-docker-compose down
-```
-
-## Method 2
-
-You can use the playbook to automate the build and run of the docker-compose using playbook-dcompose.yml
-
-```
-ansible-palybook playbook-dcompose.yml
-```
